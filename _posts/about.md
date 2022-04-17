@@ -1,9 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /
 ---
-
 
 Hello! I’m a first-year PhD student in economics at University of California Santa Barbara. I currently work at CGD, a nonpartisan think tank in D.C. and conduct research in development economics, where I have had the wonderful opportunity to work with [Charles Kenny](https://www.cgdev.org/expert/charles-kenny), [Justin Sandefur](https://www.cgdev.org/expert/justin-sandefur), and [Arvind Subramanian](https://www.arvindsubramanian.org/). I also previously helped support [Abby Alpert](https://hcmg.wharton.upenn.edu/profile/alpertab/)'s research. 
 
