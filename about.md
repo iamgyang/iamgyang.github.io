@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /
+permalink: /about
 ---
 
 Hello! I am currently a first year Economics PhD student at the University of California Santa Barbara (UCSB). I have a variety of interests, including global health, econometrics, and applied micro. Previously, I worked at CGD, a nonpartisan think tank in D.C. and conducted research in development economics. I worked with [Charles Kenny](https://www.cgdev.org/expert/charles-kenny), [Justin Sandefur](https://www.cgdev.org/expert/justin-sandefur), and [Arvind Subramanian](https://en.wikipedia.org/wiki/Arvind_Subramanian). Before CGD, I worked at UPenn LDI with [Abby Alpert](https://sites.google.com/site/abbyealpert/home). 
