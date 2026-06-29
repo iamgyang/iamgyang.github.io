@@ -7,5 +7,4 @@ Hello! I am a fourth-year PhD candidate in Economics at the University of Califo
 
 Let's get in touch! My email is **gzyang4@gmail.com**.
 
-If you'd like to support my research financially, you can do so [here](https://www.buymeacoffee.com/gyang).
 You can also provide me anonymous feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSf53XGT5LnXXOS5kcLwp7RYuEHevfgNayXYWJVdEaJdZVS3Nw/viewform).
