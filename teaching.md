@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching
 ---
 
-My [teaching evaluations](documents/Combined_Reports_11-06-2026.pdf) from courses I have taught at UCSB.
+My **[teaching evaluations](documents/Combined_Reports_11-06-2026.pdf)** from courses I have taught at UCSB.
 
 ### Recommended Reading for Students
 
