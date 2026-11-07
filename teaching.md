@@ -8,7 +8,7 @@ A crowdsourced [document](documents/CGD_resource_sheet.pdf) I started on what pe
 
 My [teaching evaluations](documents/Combined_Reports_11-06-2026.pdf) from courses I have taught at UCSB.
 
-## Reading I Recommend
+## Recommended Reading for Students
 
 - [Economic Forces](https://www.economicforces.xyz/) — A newsletter by Brian Albrecht and Josh Hendrickson applying price theory to current debates in economics and policy.
 - [Marginal Revolution](https://marginalrevolution.com/) — Tyler Cowen and Alex Tabarrok's long-running blog of daily links and commentary across economics, culture, and ideas.
