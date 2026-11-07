@@ -15,6 +15,10 @@
 
 html {
   font-size: 100%;
+  // Reserve scrollbar space on every page so centered content doesn't shift
+  // between short pages (no scrollbar) and long ones like Research
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
 }
 
 body {
