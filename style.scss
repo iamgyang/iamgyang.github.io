@@ -67,6 +67,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  text-align: left;
 }
 
 a {
@@ -94,8 +95,8 @@ a {
 
 ul, ol {
   margin: 15px 0;
-  padding-left: 0;
-  list-style-position: inside;
+  padding-left: 30px;
+  text-align: left;
 }
 
 ul {
@@ -200,12 +201,6 @@ img {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
-  }
-
-  &:hover img {
-    transform: scale(1.05) rotate(-2deg);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
 }
 
@@ -233,6 +228,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  text-align: center;
 
   @include mobile {
     margin: 3px 0;
@@ -304,11 +300,6 @@ nav {
 // Pages that opt out of the site-wide centering (set `class: left-aligned` in front matter)
 .page.left-aligned {
   text-align: left;
-
-  ul, ol {
-    padding-left: 30px;
-    list-style-position: outside;
-  }
 }
 
 // Collapsible section (e.g. Policy Papers on the research page)
@@ -402,43 +393,24 @@ footer {
   to   { opacity: 1; }
 }
 
-@keyframes popIn {
-  from {
-    opacity: 0;
-    transform: scale(0.85);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-// Masthead pieces enter in sequence
-.site-avatar {
-  animation: popIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-
-.site-info {
-  animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
-}
-
+// Nav links enter in sequence (headshot and name stay static)
 nav a {
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
 
   @for $i from 1 through 6 {
     &:nth-child(#{$i}) {
-      animation-delay: 0.3s + 0.08s * $i;
+      animation-delay: 0.1s + 0.08s * $i;
     }
   }
 }
 
-// Page content: each top-level block drifts in, staggered
-.entry > * {
+// Page content: each top-level block drifts in, staggered (headings stay static)
+.entry > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(details) {
   animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
 
   @for $i from 1 through 12 {
     &:nth-child(#{$i}) {
-      animation-delay: 0.5s + 0.07s * $i;
+      animation-delay: 0.3s + 0.07s * $i;
     }
   }
 }
