@@ -7,7 +7,7 @@ class: left-aligned
 
 ## Working Papers
 
-**_Global Cooperation on Drug Procurement and Innovation._** With Olivier Wouters.
+**_International Cooperation on Drug Pricing to Increase Pharmaceutical Innovation._** With Olivier Wouters.
 
 **_The Cost of Preclinical R&D._** With Chris Adams.
 
