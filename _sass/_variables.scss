@@ -16,11 +16,11 @@ $white: #fff;
 
 // Font stacks
 $sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$display: "Cormorant Garamond", "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+$display: $sans;
 $serif: $sans;
 $helvetica: $sans;
 $helveticaNeue: $sans;
-$georgia: $display;
+$georgia: Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
