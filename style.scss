@@ -250,12 +250,12 @@ img {
   margin: 2px 0 0 0;
   color: $gray;
   font-family: $sans;
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
 
   a {
-    color: $gray;
-    &:hover { color: $blue; }
+    color: $blue;
+    &:hover { color: darken($blue, 12%); }
   }
 
   @include mobile {

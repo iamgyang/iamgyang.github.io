@@ -23,16 +23,15 @@
           
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-            {% if site.description2 %}<p class="site-description">{{ site.description2 }}</p>{% endif %}
-            {% if site.scholar %}<p class="site-description"><a href="{{ site.scholar }}">Google Scholar</a></p>{% endif %}
+            <p class="site-description">Email: <a href="mailto:{{ site.description2 }}">{{ site.description2 }}</a>, <a href="mailto:{{ site.description }}">{{ site.description }}</a></p>
+            {% if site.scholar %}<p class="site-description"><a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a></p>{% endif %}
           </div>
 
           <nav>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/research">Research</a>
             <a href="{{ site.baseurl }}/teaching">Teaching/Resources</a>
-            <a href="{{ site.baseurl }}/documents/resume_2026_06_29.pdf">CV</a>
+            <a href="{{ site.baseurl }}/documents/resume_2026_06_29.pdf" target="_blank" rel="noopener">CV</a>
           </nav>
         </header>
       </div>
