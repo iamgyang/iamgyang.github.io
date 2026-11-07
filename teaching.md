@@ -17,4 +17,5 @@ My [teaching evaluations](documents/Combined_Reports_11-06-2026.pdf) from course
 - [The Economist](https://www.economist.com/) — A weekly magazine offering concise analysis of world affairs, economics, and business.
 - [Best of Econ Twitter](https://www.bestofecontwitter.com/) — A curated digest of the most interesting economics discussions and new papers circulating on social media.
 - [Nicholas Decker's Substack](https://nicholasdecker.substack.com) — Essays on economic history, growth, and the ideas behind economic policy.
+- [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu) — Andrew Gelman and colleagues on statistics, research methods, and what goes wrong in empirical social science.
 - [VoxDev's Development Economics Resources](https://voxdev.org/topic/where-find-development-economics-resources-newsletters-articles-podcasts-videos) — A guide to newsletters, articles, podcasts, and videos for anyone getting started in development economics.
