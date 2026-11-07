@@ -234,20 +234,20 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $sans;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 1.2;
 
   @include mobile {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 26px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
   }
 }
 
 .site-description {
-  margin: 2px 0 0 0;
+  margin: 10px 0 0 0;
   color: $gray;
   font-family: $sans;
   font-size: 14px;
@@ -259,10 +259,10 @@ img {
   }
 
   @include mobile {
-    margin: 3px 0;
+    margin: 10px 0 0 0;
   }
 
-  // Second address sits directly under the first
+  // Following lines sit directly under the first
   & + .site-description {
     margin-top: 0;
   }
