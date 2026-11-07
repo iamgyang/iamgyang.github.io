@@ -10,12 +10,12 @@ My [teaching evaluations](documents/Combined_Reports_11-06-2026.pdf) from course
 
 ## Recommended Reading for Students
 
-- [Economic Forces](https://www.economicforces.xyz/) — A newsletter by Brian Albrecht and Josh Hendrickson applying price theory to current debates in economics and policy.
-- [Marginal Revolution](https://marginalrevolution.com/) — Tyler Cowen and Alex Tabarrok's long-running blog of daily links and commentary across economics, culture, and ideas.
-- [Money Stuff by Matt Levine](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine) — A Bloomberg column that explains finance, markets, and corporate law with unusual clarity and humor.
-- [Financial Times](https://www.ft.com/) — Global business and economics news, with especially strong coverage of markets and policy.
-- [The Economist](https://www.economist.com/) — A weekly magazine offering concise analysis of world affairs, economics, and business.
-- [Best of Econ Twitter](https://www.bestofecontwitter.com/) — A curated digest of the most interesting economics discussions and new papers circulating on social media.
-- [Nicholas Decker's Substack](https://nicholasdecker.substack.com) — Essays on economic history, growth, and the ideas behind economic policy.
-- [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu) — Andrew Gelman and colleagues on statistics, research methods, and what goes wrong in empirical social science.
-- [VoxDev's Development Economics Resources](https://voxdev.org/topic/where-find-development-economics-resources-newsletters-articles-podcasts-videos) — A guide to newsletters, articles, podcasts, and videos for anyone getting started in development economics.
+- [Economic Forces](https://www.economicforces.xyz/) — Substack applying economics to current events.
+- [Marginal Revolution](https://marginalrevolution.com/) — Blog of daily links and commentary across economics and culture.
+- [Money Stuff by Matt Levine](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine) — One of the most simple and well-explained finance blogs.
+- [Financial Times](https://www.ft.com/) — News.
+- [The Economist](https://www.economist.com/) — News.
+- [Best of Econ Twitter](https://www.bestofecontwitter.com/) — Economics discussions and new papers.
+- [Nicholas Decker's Substack](https://nicholasdecker.substack.com) — Basically a bunch of lit reviews on particular economics topics; goes into specifics for particular papers.
+- [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu) — Statistics and what goes wrong.
+- [VoxDev's Development Economics Resources](https://voxdev.org/topic/where-find-development-economics-resources-newsletters-articles-podcasts-videos) — Resources for reading about development economics.
