@@ -15,9 +15,11 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$serif: "Libre Caslon Text", "Adobe Caslon Pro", "Big Caslon", Georgia, "Times New Roman", serif;
+$display: "Cormorant Garamond", "Libre Caslon Text", Georgia, serif;
+$helvetica: $serif;
+$helveticaNeue: $display;
+$georgia: $serif;
 
 // Mobile breakpoints
 @mixin mobile {
