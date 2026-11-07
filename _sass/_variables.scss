@@ -15,11 +15,12 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$serif: "Libre Caslon Text", "Adobe Caslon Pro", "Big Caslon", Georgia, "Times New Roman", serif;
-$display: "Cormorant Garamond", "Libre Caslon Text", Georgia, serif;
-$helvetica: $serif;
-$helveticaNeue: $display;
-$georgia: $serif;
+$sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$display: "Cormorant Garamond", "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+$serif: $sans;
+$helvetica: $sans;
+$helveticaNeue: $sans;
+$georgia: $display;
 
 // Mobile breakpoints
 @mixin mobile {
