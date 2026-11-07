@@ -21,6 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  text-align: center;
 }
 
 .container {
@@ -79,7 +80,8 @@ a {
 
 ul, ol {
   margin: 15px 0;
-  padding-left: 30px;
+  padding-left: 0;
+  list-style-position: inside;
 }
 
 ul {
@@ -158,12 +160,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 15px;
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
-    text-align: left;
+    text-align: center;
     gap: 10px;
   }
 }
@@ -187,12 +190,12 @@ img {
 }
 
 .site-info {
-  text-align: left;
+  text-align: center;
 
   @include mobile {
     display: block;
     margin: 0;
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -223,13 +226,13 @@ nav {
   font-size: 18px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 20px;
 
   @include mobile {
     margin-top: 5px;
     font-size: 17px;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 5px;
     letter-spacing: 0;
     flex-wrap: nowrap;
@@ -238,7 +241,7 @@ nav {
   a {
     margin-left: 0;
     color: $darkGray;
-    text-align: right;
+    text-align: center;
     font-weight: 300;
     letter-spacing: 1px;
 
@@ -253,6 +256,25 @@ nav {
 //
 // .main
 //
+
+// Collapsible section (e.g. Policy Papers on the research page)
+details.policy-papers {
+  margin: 2em 0 1em;
+
+  summary {
+    font-family: $helveticaNeue;
+    color: $darkerGray;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.7;
+    cursor: pointer;
+    list-style-position: inside;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
 
 .posts > .post {
   padding-bottom: 2em;

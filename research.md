@@ -12,3 +12,14 @@ At the start of 2022, profound inequities in the pace of access to COVID-19 vacc
 **Duggan, J., Morris, S., Sandefur, J., & Yang, G. (2020). *Is the World Bank's COVID-19 Crisis Lending Big Enough, Fast Enough?: New Evidence on Loan Disbursements.* Center for Global Development Working Paper.** The World Bank has forecast an unprecedented global recession in 2020-21, and the reversal of a decades-long fall in global poverty, provoking an acute need for short-term financing in low- and lower-middle income countries. We compile a new data set of all commitments, disbursements, and payments on all World Bank loans from before the 2008-09 Global Financial Crisis (GFC) through August 2020, allowing us to compare the Bank’s COVID response to the last comparable global crisis. We find that lending has indeed accelerated in 2020, with new loan commitments up 118 percent year on year in the first seven months of 2020, but actual disbursements up only 31 percent. While the Bank forecasts a 4.1 percent decline in GDP growth between 2019 and 2020 in the median low- income country, World Bank disbursements in 2020 have risen by just 0.3% of GDP by comparison.
 
 **Kenny, C., & Yang, G. (2020). *Measuring the Development Impact of the IFC and Development Finance.* Center for Global Development Working Paper.** Development Finance Institutions (DFIs) including the International Finance Corporation (IFC) tend to look at their development impact using project-level indicators of outputs and employment impacts. Using a database of IFC and other investments and sector outcomes covering infrastructure and finance, we find the quantity of IFC investment was significantly associated with larger sums of future non-IFC private investment, but it is diffcult to find evidence of an impact on outcomes.
+
+<details class="policy-papers">
+<summary>Policy Papers</summary>
+
+<p><strong><em>Global Cooperation on Drug Procurement and Innovation.</em></strong> With Olivier Wouters (Brown).</p>
+
+<p><strong><em>The Impact of the Inflation Reduction Act on Pharmaceutical R&amp;D.</em></strong> With Thomas Fullagar.</p>
+
+<p><strong><em>The Cost of Preclinical R&amp;D.</em></strong> With Chris Adams.</p>
+
+</details>
