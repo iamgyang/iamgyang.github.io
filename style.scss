@@ -386,11 +386,48 @@ nav {
   color: $gray;
 }
 
-.paper-abstract {
-  margin: -8px 0 28px;
+// Collapsible abstract under a paper entry
+details.abstract {
+  margin: -14px 0 24px;
   font-size: 15px;
   line-height: 1.5;
-  color: $darkGray;
+
+  summary {
+    display: inline-block;
+    cursor: pointer;
+    color: $blue;
+    font-size: 14px;
+    list-style: none;
+    user-select: none;
+    transition: color 0.2s ease;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      content: "+";
+      display: inline-block;
+      width: 1em;
+      font-weight: 600;
+      transition: transform 0.25s ease;
+    }
+
+    &:hover { color: darken($blue, 12%); }
+  }
+
+  &[open] summary::before {
+    content: "\2212";
+  }
+
+  p {
+    margin: 8px 0 0;
+    padding-left: 12px;
+    border-left: 2px solid $lightGray;
+    color: $darkGray;
+  }
+
+  &[open] p {
+    animation: fadeUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
 }
 
 .posts > .post {
