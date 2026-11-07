@@ -73,8 +73,22 @@ a {
   color: $blue;
   text-decoration: none;
 	cursor: pointer;
+  transition: color 0.2s ease, opacity 0.2s ease;
   &:hover, &:active {
-    color: $blue;
+    color: darken($blue, 12%);
+  }
+}
+
+// Underline that slides in on hover for links inside page content
+.entry a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  transition: background-size 0.3s ease, color 0.2s ease;
+
+  &:hover {
+    background-size: 100% 1px;
   }
 }
 
@@ -186,6 +200,12 @@ img {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
 }
 
@@ -244,6 +264,30 @@ nav {
     text-align: center;
     font-weight: 300;
     letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.2s ease, transform 0.2s ease;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background: $blue;
+      transform: translateX(-50%);
+      transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    &:hover {
+      color: $blue;
+      transform: translateY(-1px);
+
+      &::after {
+        width: 100%;
+      }
+    }
 
     @include mobile {
       margin: 0 2px;
@@ -257,6 +301,16 @@ nav {
 // .main
 //
 
+// Pages that opt out of the site-wide centering (set `class: left-aligned` in front matter)
+.page.left-aligned {
+  text-align: left;
+
+  ul, ol {
+    padding-left: 30px;
+    list-style-position: outside;
+  }
+}
+
 // Collapsible section (e.g. Policy Papers on the research page)
 details.policy-papers {
   margin: 2em 0 1em;
@@ -269,10 +323,20 @@ details.policy-papers {
     line-height: 1.7;
     cursor: pointer;
     list-style-position: inside;
+    transition: color 0.2s ease;
+
+    &::marker {
+      color: $blue;
+    }
 
     &:hover {
       color: $blue;
     }
+  }
+
+  // Reveal content when opened
+  &[open] > *:not(summary) {
+    animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
   }
 }
 
@@ -316,6 +380,75 @@ details.policy-papers {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+/**************/
+/* ANIMATIONS */
+/**************/
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+// Masthead pieces enter in sequence
+.site-avatar {
+  animation: popIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.site-info {
+  animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+}
+
+nav a {
+  animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @for $i from 1 through 6 {
+    &:nth-child(#{$i}) {
+      animation-delay: 0.3s + 0.08s * $i;
+    }
+  }
+}
+
+// Page content: each top-level block drifts in, staggered
+.entry > * {
+  animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @for $i from 1 through 12 {
+    &:nth-child(#{$i}) {
+      animation-delay: 0.5s + 0.07s * $i;
+    }
+  }
+}
+
+// Respect users who prefer less motion
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
