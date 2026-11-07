@@ -14,7 +14,7 @@ My [teaching evaluations](documents/Combined_Reports_11-06-2026.pdf) from course
 - [Financial Times](https://www.ft.com/)
 - [The Economist](https://www.economist.com/)
 - [Best of Econ Twitter](https://www.bestofecontwitter.com/) — Economics discussions and new papers.
-- [Nicholas Decker's Substack](https://nicholasdecker.substack.com) — Basically a bunch of lit reviews on particular economics topics; goes into specifics for particular papers.
+- [Nicholas Decker's Substack](https://nicholasdecker.substack.com) — Lit reviews and paper summaries on particular economics topics.
 - [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu) — Statistics blog by a Bayesian statistician; talks about errors in statistical reasoning and causal inference.
 - [VoxDev's Development Economics Resources](https://voxdev.org/topic/where-find-development-economics-resources-newsletters-articles-podcasts-videos) — Resources for reading about development economics.
 

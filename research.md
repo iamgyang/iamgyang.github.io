@@ -11,7 +11,7 @@ class: left-aligned
 
 **_The Cost of Preclinical R&D._** With Chris Adams.
 
-**_The Impact of the Inflation Reduction Act on Pharmaceutical R&D._** With Thomas Fullagar. We find a null effect, though the estimates are imprecise. Draft available upon request.
+**_The Impact of the Inflation Reduction Act on Pharmaceutical R&D._** With Thomas Fullagar.
 
 <details class="policy-papers" markdown="1">
 <summary>Policy Papers</summary>
